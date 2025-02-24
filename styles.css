@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    line-height:1.6;
+}
+header{
+    background-color: rgb(209, 209, 170);
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+
+}
+section{
+    margin: 100px;
+    padding: 14px;
+    background-color: bisque;
+}
+footer{
+    font-size: 20px;
+    background-color: rgb(110, 96, 79);
+    color: white;
+    text-align: center;
+}
+
