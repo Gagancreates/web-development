@@ -1,7 +1,5 @@
-/////////////  FETCHING APIS (SINGLE AND MULTIPLE)
-async function get(){
-    const x=  await fetch('https://official-joke-api.appspot.com/random_joke');
-    const y= await x.json();
-    console.log(y);
+const ok={ name: "Gagan"}
+function greet(city){
+    console.log(` Hello Bhai ${this.name}, you live in the city ${city}`)
 }
-get();
+greet.call(ok, "Mysuru")
